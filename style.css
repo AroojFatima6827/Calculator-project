@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: black;
+    text-align: center; 
+    min-height: 50vh;
+    max-width: 50vw;
+    margin-inline: auto;
+    margin-top: 5rem;
+    border-radius: 1rem;
+
+}
+.display  {
+    background-color: black; 
+    color: white; 
+    padding: 10px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+    transition: all 0.3s ease; 
+}
+
+
+.display:focus {
+    box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5); 
+    border: 2px solid rgba(255, 255, 255, 0.7); 
+}
+
+.Display input{
+    border: none; 
+     outline: none;
+}
+.button1 input{
+   height: 4rem;
+   width: 4rem;
+   border-radius: 50%;
+   border: none;
+   cursor: pointer;
+   font-size: 18px;
+   background-color: black;
+   color: white;
+   margin: 5px;
+   box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+   transition: all 0.3s ease;
+}
+
+.button2 input{
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+   transition: all 0.3s ease;
+   
+}
+.button3 input{
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+   transition: all 0.3s ease;
+   
+   
+}
+.button4 input{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+   transition: all 0.3s ease;
+   
+    
+}
+.button5 input{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.3); 
+   transition: all 0.3s ease;
+   
+
+}
+
+input[type="button"]:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1); 
+}
+
+
+@media (max-width: 600px) {
+    .main-container {
+        max-width: 90vw; /* Increase container width for small screens */
+        margin-top: 2rem; /* Adjust top margin for better spacing */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .display {
+        font-size: 1.5rem; /* Smaller font size for input */
+        padding: 8px; /* Adjust padding */
+    }
+
+    /* Adjust button sizes for small screens */
+    .button1 input,
+    .button2 input,
+    .button3 input,
+    .button4 input,
+    .button5 input {
+        height: 3.5rem; /* Smaller buttons */
+        width: 3.5rem;
+        font-size: 16px; /* Smaller font size */
+    }
+}
+
+/* For larger mobile screens (tablets and small desktops) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .main-container {
+        max-width: 70vw; /* Slightly bigger container for tablets */
+        margin-top: 3rem;
+    }
+
+    .display {
+        font-size: 1.8rem; /* Adjust font size */
+        padding: 10px;
+    }
+
+    .button1 input,
+    .button2 input,
+    .button3 input,
+    .button4 input,
+    .button5 input {
+        height: 3.8rem; /* Medium button size */
+        width: 3.8rem;
+        font-size: 17px;
+    }
+}
+
